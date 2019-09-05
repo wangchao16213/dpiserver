@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wang/CLionProjects/dpiserver/main.cpp
+iostream
+-
+pcap.h
+-
+curl/curl.h
+-
+string
+-
+model/Channel.h
+/Users/wang/CLionProjects/dpiserver/model/Channel.h
+
+/Users/wang/CLionProjects/dpiserver/model/Channel.cpp
+Channel.h
+/Users/wang/CLionProjects/dpiserver/model/Channel.h
+
+/Users/wang/CLionProjects/dpiserver/model/Channel.h
+string
+-
+vector
+-
+
